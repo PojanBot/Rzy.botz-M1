@@ -42,7 +42,7 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═ ©2021 Rpg wabot-aq
 ╠═ Scrip original by Nurutomo
-╠═〘 Rzy-botz 〙 ═`.trim(), '© Rzybotz', 'Dana', '#viadana', 'Pulsa', '#viapulsa', m)
+╠═〘 Piann 〙 ═`.trim(), '© PianzBotz', 'Dana', '#viadana', 'Pulsa', '#viapulsa', m)
 }
 
     // salam
@@ -72,7 +72,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`im Rzy-botz | ⏰Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by Rzy-botz`).catch(_ => _)
+        await this.setStatus(`im PianzBotz | ⏰Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} | by Piann`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
